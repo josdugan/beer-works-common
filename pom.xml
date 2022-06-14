@@ -27,7 +27,7 @@
 			<url>https://repo1.maven.org/maven2/</url>
 		</repository>
 		<repository>
-			<id>beer-works-bom</id>
+			<id>github</id>
 			<url>https://maven.pkg.github.com/josdugan/beer-works-bom</url>
 			<snapshots>
 				<enabled>true</enabled>
