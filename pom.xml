@@ -4,36 +4,31 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.josdugan</groupId>
-		<artifactId>beer-works-bom</artifactId>
-		<version>0.0.3-SNAPSHOT</version>
+		<artifactId>beer-works-dependencies</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.josdugan</groupId>
 	<artifactId>beer-works-common</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>beer-works-common</name>
-	<description>Demo project for Spring Boot</description>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>${javax-validation.version}</version>
+		</dependency>
 	</dependencies>
-
-	<repositories>
-		<repository>
-			<id>central</id>
-			<url>https://repo1.maven.org/maven2/</url>
-		</repository>
-		<repository>
-			<id>github</id>
-			<url>https://maven.pkg.github.com/josdugan/beer-works-bom</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 
 	<distributionManagement>
 		<repository>
