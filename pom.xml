@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.josdugan</groupId>
 	<artifactId>beer-works-common</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
+	<version>0.0.9-SNAPSHOT</version>
 	<name>beer-works-common</name>
 
 	<dependencies>
@@ -27,6 +27,10 @@
 			<groupId>javax.validation</groupId>
 			<artifactId>validation-api</artifactId>
 			<version>${javax-validation.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-commons</artifactId>
 		</dependency>
 	</dependencies>
 
