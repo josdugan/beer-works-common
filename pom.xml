@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>com.josdugan</groupId>
 		<artifactId>beer-works-dependencies</artifactId>
-		<version>0.0.4-SNAPSHOT</version>
+		<version>0.0.5-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.josdugan</groupId>
 	<artifactId>beer-works-common</artifactId>
-	<version>0.0.11-SNAPSHOT</version>
+	<version>0.0.12-SNAPSHOT</version>
 	<name>beer-works-common</name>
 
 	<dependencies>
